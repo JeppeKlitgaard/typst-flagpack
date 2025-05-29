@@ -1,0 +1,3 @@
+[submodule "vendored/flagpack-core"]
+	path = vendored/flagpack-core
+	url = https://github.com/Yummygum/flagpack-core.git

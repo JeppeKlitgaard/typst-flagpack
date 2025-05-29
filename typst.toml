@@ -1,0 +1,25 @@
+# See documentation: https://github.com/typst/packages/?tab=readme-ov-file#package-format
+
+[package]
+name = "flagpack"
+description = "A Typst library for inserting flags from the Flagpack project."
+
+version = "0.1.0"
+compiler = "0.13"
+
+authors = ["Jeppe Klitgaard <hi@jeppe.science>"]
+repository = "https://github.com/jeppe/typst-flagpack"
+license = "MIT"
+
+entrypoint = "lib.typ"
+keywords = ["icons", "flags", "graphics", "flagpack"]
+categories = ["visualization", "languages"]
+
+exclude  = [
+    "*.pdf",
+    "*.py",
+    ".gitmodules",
+    "vendored/",
+    "demo.typ",
+    "justfile",
+]
